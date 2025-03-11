@@ -1,0 +1,65 @@
+% CVPR 2025 Paper Template; see https://github.com/cvpr-org/author-kit
+
+\documentclass[12pt,onecolumn,letterpaper]{article}
+%\usepackage{titling}
+
+
+%%%%%%%%% PAPER TYPE  - PLEASE UPDATE FOR FINAL VERSION
+% \usepackage{cvpr}              % To produce the CAMERA-READY version
+% \usepackage[review]{cvpr}      % To produce the REVIEW version
+\usepackage{cvpr} % To force page numbers, e.g. for an arXiv version
+\usepackage{multirow}
+
+% Import additional packages in the preamble file, before hyperref
+\input{preamble}
+
+% It is strongly recommended to use hyperref, especially for the review version.
+% hyperref with option pagebackref eases the reviewers' job.
+% Please disable hyperref *only* if you encounter grave issues, 
+% e.g. with the file validation for the camera-ready version.
+%
+% If you comment hyperref and then uncomment it, you should delete *.aux before re-running LaTeX.
+% (Or just hit 'q' on the first LaTeX run, let it finish, and you should be clear).
+\definecolor{cvprblue}{rgb}{0.21,0.49,0.74}
+\usepackage[pagebackref,breaklinks,colorlinks,allcolors=cvprblue]{hyperref}
+
+%%%%%%%%% PAPER ID  - PLEASE UPDATE
+\def\paperID{***}% *** Enter the Paper ID here
+\def\confName{WPO NOFO}
+\def\confYear{2025}
+
+%%%%%%%%% TITLE - PLEASE UPDATE
+\title{Deep Learning Contrail Detection}
+
+%%%%%%%%% AUTHORS - PLEASE UPDATE
+\author{\normalsize \textbf{Co-Investigator:} Rey Koki, CIRES Associate Scientist in Machine Learning\\
+\normalsize University of Colorado, Boulder, NOAA GSL Affiliate\\
+\normalsize 455 S 38th St, Boulder, CO 80305\\
+\normalsize phone: {\tt\normalsize 303-478-9911}, email: {\tt\normalsize rey.koki@noaa.gov}
+}
+
+\begin{document}
+\maketitle
+
+
+
+
+
+
+
+\begin{center}
+Starting Readiness Level: RL 1 \hspace{1cm} $|$ \hspace{1cm} Ending Readiness Level: RL 4
+\end{center}
+
+\pagebreak
+%\input{sec/0_abstract}
+\input{sec/1_intro}
+
+{
+    \normalsize
+    \bibliographystyle{ieeetr}
+%    \bibliographystyle{ieeenat_fullname}
+    \bibliography{main}
+}
+
+\end{document}
